@@ -1,0 +1,26 @@
+.verification-input {
+  border: none;
+  border: var(--firstInfoPagesButtinColor);
+  border-radius: 10px ;
+  width: 346px;
+  height: 37.44px;
+  padding-left: 20px;
+}
+.verification-input::placeholder {
+  color: var(--dark-gray-col);
+  font-family: "Nunito Sans";
+  font-size: 17.68px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.88px; /* 129.412% */
+  letter-spacing: -0.424px;
+}
+.verification-form {
+  gap: 10px;
+}
+@media (max-width: 321px) {
+    .verification-input {
+        width: 260px !important;
+        height: 50px !important;
+    }
+  }

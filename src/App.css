@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+ 
+}
+:root {
+  /* Background */
+  --mainBackground: #f2f2f6;
+  --firstInfoPagesButtinColor: #007aff;
+  --red-col:#EB4D3D;
+  --dark-gray-col:rgba(28, 33, 33, 0.6);
+  --black-col:#1C2121;
+  --Label-Light-Secondary:rgba(60, 60, 67, 0.60);
+  /* text */
+  --white-col: #fff;
+}
+a {
+  text-decoration: none;
+  color: var(--firstInfoPagesButtinColor);
+  
+}
+
+.app-box {
+  height: 100%;
+  background: var(--mainBackground);
+}
+.login-box {
+  height: 100%;
+  justify-content: space-evenly;
+}
+

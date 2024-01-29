@@ -1,0 +1,11 @@
+.curent-date {
+  color: var(--Label-Light-Secondary);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Nunito;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 138.462% */
+  letter-spacing: -0.078px;
+  padding-top: 52px;
+}

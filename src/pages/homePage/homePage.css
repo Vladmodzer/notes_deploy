@@ -1,0 +1,21 @@
+.home-title {
+  font-size: 26px;
+
+  font-weight: 700;
+  line-height: 42.64px; /* 164% */
+  letter-spacing: 0.389px;
+}
+.container {
+  padding: 0 22px;
+}
+.home_burger-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.notes-slide-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
