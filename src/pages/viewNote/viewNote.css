@@ -1,0 +1,33 @@
+.view-box {
+  display: flex;
+  padding-top: 52px;
+  gap: 10px;
+}
+.view-box h2 {
+  color: var(--firstInfoPagesButtinColor);
+  text-align: center;
+  font-size: 14.582px;
+  font-weight: 600;
+  line-height: 140%; /* 20.414px */
+  text-transform: capitalize;
+}
+.vnta {
+  border-radius: 10px;
+  margin-top: 0 !important;
+  
+
+}
+.view-note-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.view-note-tittle {
+  width: 100%;
+  height: 37.44px;
+  border-radius: 10px;
+  border: none;
+  padding: 0 20px;
+  font-size: 17px;
+  margin-top: 26px;
+}

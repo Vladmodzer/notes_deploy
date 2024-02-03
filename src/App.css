@@ -2,24 +2,37 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Nunito Sans', sans-serif;
- 
+  font-family: "Nunito Sans", sans-serif;
 }
 :root {
-  /* Background */
+  /* Backgrounds */
   --mainBackground: #f2f2f6;
   --firstInfoPagesButtinColor: #007aff;
-  --red-col:#EB4D3D;
-  --dark-gray-col:rgba(28, 33, 33, 0.6);
-  --black-col:#1C2121;
-  --Label-Light-Secondary:rgba(60, 60, 67, 0.60);
+  --red-col: #eb4d3d;
+  --dark-gray-col: rgba(28, 33, 33, 0.6);
+  --black-col: #1c2121;
+  --Label-Light-Secondary: rgba(60, 60, 67, 0.6);
+  --footer-col: #f9f9f9;
+  --all-notes-bg: #8e8e92;
+  --all-notes-bg-dont-btn: rgba(142, 142, 146, 0.1);
+  --favorites-notes-bg: #f7ce45;
+  --favorites-notes-bg-dont-btn: rgba(247, 206, 69, 0.3);
+  --hidden-notes-bg: #4e94f8;
+  --hidden-notes-bg-dont-btn: rgba(78, 148, 248, 0.1);
+  --trash-notes-bg: #eb4d3d;
+  --trash-notes-bg-dont-btn: rgba(235, 77, 61, 0.1);
   /* text */
   --white-col: #fff;
+  /* fill Stroke Svg */
+  --icon-fill-passive: #1c2121;
+  --icon-fill-active: #4e94f8;
+}
+html {
+  overflow-y: hidden;
 }
 a {
   text-decoration: none;
   color: var(--firstInfoPagesButtinColor);
-  
 }
 
 .app-box {
@@ -31,3 +44,30 @@ a {
   justify-content: space-evenly;
 }
 
+.container {
+  margin: 0 22px;
+}
+.footer {
+  height: 10%;
+  background: var(--footer-col);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.main-bg {
+  background: var(--mainBackground);
+  display: flex;
+  flex-direction: column;
+}
+.hidden {
+  display: none !important;
+}
+.drop-dawn-menu-show {
+  display: flex !important;
+}
+.icon {
+  transition: fill 0.2s ease-in-out, stroke 0.2s ease-in-out;
+}
+ul,li {
+  list-style: none;
+}

@@ -1,0 +1,16 @@
+.notes-slide-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: scroll;
+  height: 100vh;
+  padding-bottom: 457px;
+}
+.main-title {
+  color: var(--black-col);
+  font-size: 15.624px;
+  font-weight: 700;
+  line-height: 18.841px; /* 120.588% */
+  letter-spacing: 0.172px;
+  margin-bottom: 15px;
+}
